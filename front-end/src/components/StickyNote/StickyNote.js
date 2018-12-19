@@ -2,9 +2,9 @@ import React from 'react';
 
 import './index.css';
 
-export default function Body() {
+export default function StickyNote() {
   return (
-    <div className="body">
+    <div className="sticker">
     </div>
   )
 }
