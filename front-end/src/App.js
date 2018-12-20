@@ -5,6 +5,7 @@ import './App.css';
 import Header from './components/Header';
 import Body from './components/Body';
 import StickyNote from './components/StickyNote';
+import ButtonCreate from './components/ButtonCreate';
 class App extends Component {
   render() {
     return (
@@ -31,6 +32,13 @@ class App extends Component {
       		<p># <br/>Não ocorreu ainda</p>
       		<p className="linethrough">Ocorreu</p>
       	</li>
+      	<li>
+      		<div className="bonsplanos">
+      		<h2>Bons Planos!</h2>
+      		<ButtonCreate />
+      		</div>
+      	</li>
+
       	</ul>
       </div>
       </div>
