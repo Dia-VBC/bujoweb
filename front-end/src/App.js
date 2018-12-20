@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { Link } from 'react-router-dom';
 import './App.css';
 
 import Header from './components/Header';
@@ -7,6 +7,7 @@ import Body from './components/Body';
 import StickyNote from './components/StickyNote';
 import ButtonCreate from './components/ButtonCreate';
 class App extends Component {
+
   render() {
     return (
       <div>
@@ -18,6 +19,7 @@ class App extends Component {
       	<li>
       	<StickyNote />
       		<h3>Tarefas</h3>
+<Link to="/sobre">Ir para a página sobre \o/</Link>
       		<p>o <br/>Não finalizada</p>
       		<p className="linethrough">Finalizada</p>
       	</li>
