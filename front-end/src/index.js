@@ -2,7 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import './index.css';
-import Sobre from './Sobre';
+import Week from './Week.js';
+import Day from './Day.js';
+import Month from './Month.js';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { Link } from 'react-router-dom'
@@ -11,7 +13,9 @@ ReactDOM.render(
     <BrowserRouter>
         <Switch>
             <Route path="/" exact={true} component={App} />
-            <Route path="/sobre" component={Sobre} />
+            <Route path="/Week" exact={true} component={Week} />
+<Route path="/Day" exact={true} component={Day} />
+<Route path="/Month" exact={true} component={Month} />
         </Switch>
     </ BrowserRouter>
     , document.getElementById('root'));
