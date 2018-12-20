@@ -5,6 +5,7 @@ import './index.css';
 import Week from './Week.js';
 import Day from './Day.js';
 import Month from './Month.js';
+import NewTask from './NewTask.js';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { Link } from 'react-router-dom'
@@ -16,6 +17,7 @@ ReactDOM.render(
             <Route path="/Week" exact={true} component={Week} />
 <Route path="/Day" exact={true} component={Day} />
 <Route path="/Month" exact={true} component={Month} />
+<Route path="/NewTask" exact={true} component={NewTask} />
         </Switch>
     </ BrowserRouter>
     , document.getElementById('root'));

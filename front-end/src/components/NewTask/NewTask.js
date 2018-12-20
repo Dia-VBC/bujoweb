@@ -1,9 +1,10 @@
 import React from 'react';
+
 import './index.css';
 
-export default function ConteudoPaginas() {
+export default function NewTask() {
   return (
-    <div className="Conteudo">
+    <div className="newtask">
     </div>
   )
 }

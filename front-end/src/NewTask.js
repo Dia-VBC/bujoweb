@@ -5,14 +5,14 @@ import StickyNote from './components/StickyNote';
 import ButtonCreate from './components/ButtonCreate';
 import './App.css';
 
-class Week extends Component {
+class NewTask extends Component {
  render() {
  return (
     <div>
       <Header />
       <Body />
       <div className="content">
-      	<h1>Mês</h1>
+      	<h1>Nova tarefa</h1>
       	<ul>
       	<li>
       		<div className="Conteudo">
@@ -20,11 +20,7 @@ class Week extends Component {
       		
       		</div>
       	</li>
-<div className="BB">
-<li>
-<ButtonCreate />
-</li>
-</div>
+
       	</ul>
       </div>
       </div>
@@ -32,4 +28,4 @@ class Week extends Component {
  }
 }
 
-export default Week;
+export default NewTask;
