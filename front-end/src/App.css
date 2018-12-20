@@ -22,6 +22,37 @@
   color: #61dafb;
 }
 
+div.content{
+  margin-left: 50px;
+
+}
+div.content h3{
+  color: darkblue;
+  font-family: "Lucida Calligraphy";
+}
+div.content p{
+  margin-left: 50px;
+  font-weight: bold;
+  color: darkblue;
+}
+div.content p.linethrough{
+  text-decoration: line-through;;
+}
+div.content h1{
+  color: white;
+  font-size: 60px;
+}
+div.content ul{
+    display: flex;
+    list-style-type: none;
+}
+div.content li{
+    height: 2em;
+    width: 8em;
+    text-align: center;
+    padding-top: 1.8em;
+    margin-right: 300px;
+  }
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
